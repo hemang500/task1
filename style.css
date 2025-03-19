@@ -72,27 +72,41 @@ body{
     margin: 10px 0 10px 0;
     border-radius:8px;
     border: 1px solid lightgray;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px px lightgray;
     width:95%;
     padding:10px;
 
 }
-.status-para{
-    color: red;
+
+/* js status appprove fun  */ 
+.status-para-approve{
+ color: green; 
+ font-weight: bold;
 }
+
+ 
+/* js status reject fun  */
+.status-para-reject{
+ color: red;
+ font-weight: bold;
+}
+
+
+
 .employee-checkbox-container{
     text-align: center;
 
 }
 
 /* .employee-details-btn-container*/
+
 .employee-details-btn-box{
     display: flex;
     justify-content: space-between;
 }
 
 /* button 1 */
-.employee-details-btn1{
+.employee-details-approve-btn{
     border-radius:6px;
     padding:8px;
     border: none;
@@ -107,7 +121,7 @@ body{
 
 
 /* button 2 */
-.employee-details-btn2{
+.employee-details-reject-btn{
     border-radius:6px;
     padding:8px;
     border: none;
