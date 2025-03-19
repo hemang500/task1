@@ -44,11 +44,11 @@ function  employeeRejectButton(){
             
     rejectButton.addEventListener('click',()=>{
         
-        let check=confirm("Are sure to Approved")
+        let check=confirm("Are sure to Rejected")
     if(check){
 
-        personStatus.classList.add("status-para-approve")
-        personStatus.innerText = "Status: Approved";
+        personStatus.classList.add("status-para-reject")
+        personStatus.innerText = "Status: Rejected";
     }
 
     approveButton.disabled = true;
@@ -59,7 +59,7 @@ function  employeeRejectButton(){
     
 }
 
-
+employeeRejectButton()
 
 
 
