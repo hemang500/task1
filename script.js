@@ -69,4 +69,4 @@ function updateMultiple(status) {
 }
 
 // Initial render
-renderRequests();
+renderRequests(); 
